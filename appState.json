@@ -35,8 +35,8 @@
         "isRemovable": true,
         "filePath": "StartDocTextDetection.js",
         "cursor": {
-          "lineNumber": 15,
-          "column": 32
+          "lineNumber": 4,
+          "column": 29
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -47,18 +47,43 @@
           "name": "StartDocTextDetection"
         },
         "triggers": [],
-        "lastUpdated": 1615486965703
+        "lastUpdated": 1615496375661
+      },
+      "c68dade3-dfa4-441c-9d59-7f7ab8784181": {
+        "id": "c68dade3-dfa4-441c-9d59-7f7ab8784181",
+        "parent": null,
+        "name": "ProcessDocTextDetection.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "ProcessDocTextDetection.js",
+        "cursor": {
+          "lineNumber": 40,
+          "column": 35
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "ProcessDocTextDetection"
+        },
+        "triggers": [],
+        "lastUpdated": 1615496687655
       }
     },
     "openFiles": [
-      "c6e275f9-d92b-422f-ac80-b96cb3bd3205"
+      "c6e275f9-d92b-422f-ac80-b96cb3bd3205",
+      "c68dade3-dfa4-441c-9d59-7f7ab8784181"
     ],
-    "currentFileId": "c6e275f9-d92b-422f-ac80-b96cb3bd3205",
+    "currentFileId": "c68dade3-dfa4-441c-9d59-7f7ab8784181",
     "resources": {},
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -80,7 +105,7 @@
     "projectName": "SalesforceTextract",
     "projectDescription": "",
     "projectVersion": "1.0.0",
-    "projectRegion": "us-east-1",
+    "projectRegion": "us-east-2",
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
