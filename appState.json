@@ -23,13 +23,37 @@
           "name": "SalesforceTextract"
         },
         "triggers": [],
-        "lastUpdated": 1615486459809
+        "lastUpdated": 1615486970050
+      },
+      "c6e275f9-d92b-422f-ac80-b96cb3bd3205": {
+        "id": "c6e275f9-d92b-422f-ac80-b96cb3bd3205",
+        "parent": null,
+        "name": "StartDocTextDetection.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "StartDocTextDetection.js",
+        "cursor": {
+          "lineNumber": 15,
+          "column": 32
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "StartDocTextDetection"
+        },
+        "triggers": [],
+        "lastUpdated": 1615486965703
       }
     },
     "openFiles": [
-      "af09b43f-b7ca-4477-a083-722700a909f7"
+      "c6e275f9-d92b-422f-ac80-b96cb3bd3205"
     ],
-    "currentFileId": "af09b43f-b7ca-4477-a083-722700a909f7",
+    "currentFileId": "c6e275f9-d92b-422f-ac80-b96cb3bd3205",
     "resources": {},
     "customTemplate": {
       "syntax": "JSON",
