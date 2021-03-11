@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "af09b43f-b7ca-4477-a083-722700a909f7": {
+        "id": "af09b43f-b7ca-4477-a083-722700a909f7",
+        "parent": null,
+        "name": "SalesforceTextract.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SalesforceTextract.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "SalesforceTextract"
+        },
+        "triggers": [],
+        "lastUpdated": 1615486459809
+      }
+    },
+    "openFiles": [
+      "af09b43f-b7ca-4477-a083-722700a909f7"
+    ],
+    "currentFileId": "af09b43f-b7ca-4477-a083-722700a909f7",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.7.0",
+    "projectName": "SalesforceTextract",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1615486551445
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "salesforcetextract",
+      "url": "https://github.com/thedges/salesforcetextract"
+    }
+  }
+}
