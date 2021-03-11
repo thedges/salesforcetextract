@@ -7,15 +7,15 @@ exports.handler = async (event,context,callback)  => {
                 //ClientRequestToken: '1',
                 DocumentLocation: { /* required */
                     S3Object: {
-                    Bucket: 'BUCKET_NAME',
+                    Bucket: 'sfdc-ocr',
                     Name: inputVal
                     //Version: 'STRING_VALUE'
                     }
                 },
                 JobTag: 'SFDC',
                 NotificationChannel: {
-                    RoleArn: '<ROLE_ARN>', 
-                    SNSTopicArn: '<SNS_TOPIC>'
+                    RoleArn: 'arn:aws:iam::345422727494:role/CustomLambaTextract', 
+                    SNSTopicArn: 'SFDC_TEXT_SCAN'
                 }
         };
  
